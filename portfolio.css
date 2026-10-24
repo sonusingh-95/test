@@ -1,0 +1,122 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background: #eee;
+    text-align: center;
+}
+header{
+    background: navy;
+    color: white;
+    padding: 20px;
+}
+nav{
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.section{
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+}
+h2{
+    color: navy;
+}
+.skills {
+    background: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.skill {
+    width: 150px;
+    margin: 15px;
+}
+
+.skill img {
+    width: 100px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.bar {
+    height: 6px;
+    background: #ddd;
+    margin-top: 15px;
+}
+
+.bar div {
+    height: 6px;
+    background: #2196f3;
+}
+
+.section {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+}
+.projects {
+    padding: 40px 20px;
+    text-align: center;
+    background: #eaf2ff;
+}
+
+.projects h2 {
+    font-size: 32px;
+    color: #0755b5;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: white;
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0002;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px #0755b555;
+}
+
+.project-card h3 {
+    color: #0755b5;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.project-card span {
+    display: inline-block;
+    background: #0755b5;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
